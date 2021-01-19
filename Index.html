@@ -10,20 +10,23 @@
 </head>
 <title>Portfolio</title>
 <body>
+      <header class="parallax">
+      <div class="navbar-fixed">   
+          <nav class="nav-wrapper transparent">
+            <a href="#" data-target="mobile-menu" class="sidenav-trigger show-on-large">
+              <i class="material-icons">menu</i>
+            </a>
+        </nav>
+      </div>
+              <ul class="sidenav grey lighten-2" id="mobile-menu">
+                <li><a class="sidenav-close" href="#Intro">Introduction</a></li>
+                <li><a class="sidenav-close"  href="#doof">What I Do</a></li>
+                <li><a class="sidenav-close"  href="#workedwithh">Skills and Works</a></li>
+                <li><a class="sidenav-close"  href="#Stalks">Contact</a></li>
+              </ul>
+    
+      
   
- <header class="parallax">
-    <nav class="nav-wrapper transparent" style="position: fixed; top: 0;"> 
-        <a href="#" data-target="mobile-menu" class="sidenav-trigger show-on-large">
-          <i class="material-icons">menu</i>
-        </a>
-          <ul class="sidenav grey lighten-2" id="mobile-menu">
-            <li><a class="sidenav-close" href="#Intro">Introduction</a></li>
-            <li><a class="sidenav-close"  href="#doof">What I Do</a></li>
-            <li><a class="sidenav-close"  href="#workedwithh">Skills and Works</a></li>
-            <li><a class="sidenav-close"  href="#Stalks">Contact</a></li>
-          </ul>
-      </nav>
-
       <div class="parent">
         <h2 class="intro white-text">HELLO,I'M HAMID</h2>
         <h4 class="developer white-text">AN ASPIRING WEB DEVELOPER</h4>
@@ -141,7 +144,7 @@
 <script src="/js/materialize.js"></script>
   <script>
       $(document).ready(function(){
-$('.sidenav').sidenav();
+        $('.sidenav').sidenav();
 $('.parallax').parallax();
 $('.tabs').tabs();
 $('.tooltipped').tooltip();
