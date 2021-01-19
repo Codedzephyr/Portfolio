@@ -10,7 +10,7 @@
 </head>
 <title>Portfolio</title>
 <body>
-      <header class="parallax">
+      <header>
       <div class="navbar-fixed">   
           <nav class="nav-wrapper transparent">
             <a href="#" data-target="mobile-menu" class="sidenav-trigger show-on-large">
@@ -28,14 +28,15 @@
       
   
       <div class="parent">
-        <h2 class="intro white-text">HELLO,I'M HAMID</h2>
+        <h2 class="intro white-text scrollspy">HELLO,I'M HAMID</h2>
         <h4 class="developer white-text">AN ASPIRING WEB DEVELOPER</h4>
       </div>
  </header>
 
 
 
- <div class="Introduction blue-grey lighten-4 scrollspy" id="Intro">
+
+ <div class="Introduction blue-grey lighten-4 section scrollspy" id="Intro">
    <div style= "text-align: center;">
    <img src="/img/undraw_code_thinking_1jeh.svg" alt="" class="thinking" width="400" height="200" style="margin-top: 10px;">
    </div>
@@ -47,7 +48,7 @@
 
 
  
- <div class="do blue-grey lighten-5 scrollspy" id="doof">
+ <div class="do blue-grey lighten-5 section scrollspy" id="doof">
     <p class="hat grey-text darken-4">WHAT I DO</p>
     <hr class="ne">
     <div class="row">
@@ -85,7 +86,7 @@
 
 
 
-    <div class="workedwith blue-grey lighten-1 scrollspy" id="workedwithh">
+    <div class="workedwith blue-grey lighten-1 section scrollspy" id="workedwithh">
      <div class="row">
        <div class="col s12 l6">
          <div class="container">
@@ -124,7 +125,7 @@
      </div>
     </div>
 
-    <div class="Stalk blue-grey lighten-5" id="Stalks">
+    <div class="Stalk blue-grey lighten-5 section scrollspy" id="Stalks">
       <p class="me grey-text darken-4">STALK ME</p>
       <hr class="ee">
       <div style="text-align: center;">
@@ -143,13 +144,12 @@
 <script src="/js/jquery-3.5.1.js"></script>
 <script src="/js/materialize.js"></script>
   <script>
-      $(document).ready(function(){
-        $('.sidenav').sidenav();
+  $(document).ready(function(){
+   $('.sidenav').sidenav();
 $('.parallax').parallax();
 $('.tabs').tabs();
 $('.tooltipped').tooltip();
 $('.scrollspy').scrollSpy();
-
 });
   </script>
 </body>
