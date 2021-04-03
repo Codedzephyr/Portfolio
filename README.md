@@ -1,5 +1,5 @@
 # Portfolio
-Portfolio designed With Materialize
+Portfolio designed With Materialize.
 This is my portfolio showcasing my works as a front end developer so far.
 
 
