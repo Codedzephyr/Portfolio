@@ -11,6 +11,7 @@
 <title>Portfolio</title>
 <body>
       <header>
+        <!---Navbar-->
       <div class="navbar-fixed">   
           <nav class="nav-wrapper transparent">
             <a href="#" data-target="mobile-menu" class="sidenav-trigger show-on-large">
@@ -21,7 +22,8 @@
               <ul class="sidenav grey lighten-2" id="mobile-menu">
                 <li><a class="sidenav-close" href="#Intro" style="margin-top: 40px;">Introduction</a></li>
                 <li><a class="sidenav-close"  href="#doof">What I Do</a></li>
-                <li><a class="sidenav-close"  href="#workedwithh">Skills and Works</a></li>
+                <li><a class="sidenav-close"  href="#workedwithh"> Projects</a></li>
+                <li><a class="sidenav-close"  href="#skills"> Skills</a></li>
                 <li><a class="sidenav-close"  href="#Stalks">Contact</a></li>
               </ul>
     
@@ -32,10 +34,11 @@
         <h4 class="developer white-text">AN ASPIRING WEB DEVELOPER</h4>
       </div>
  </header>
+ <!---end of navbar-->
 
 
 
-
+<!----Introduction-->
  <div class="Introduction blue-grey lighten-4 section scrollspy" id="Intro">
    <div style= "text-align: center;">
    <img src="/img/undraw_code_thinking_1jeh.svg" alt="" class="thinking" width="400" height="200" style="margin-top: 10px;">
@@ -44,10 +47,10 @@
    <p class="years grey-text darken-4">I am 23 years old,A Web Developer/Designer based in Lagos. 
    </p>
  </div>
+<!---end of introduction-->
 
 
-
- 
+<!---Beginning of what i do-->
  <div class="do blue-grey lighten-5 section scrollspy" id="doof">
     <p class="hat grey-text darken-4">WHAT I DO</p>
     <hr class="ne">
@@ -83,48 +86,185 @@
   </div>
   </div>
  </div>
+ <!---end of what i do-->
 
 
-
+<!----Beginning of projects-->
     <div class="workedwith blue-grey lighten-1 section scrollspy" id="workedwithh">
+      <p class="hither white-text" style="margin-left: 50px;">PROJECTS</p>
      <div class="row">
-       <div class="col s12 l6">
-         <div class="container">
-          <ul class="collection with-header">
-            <li class="collection-header blue-grey lighten-4 grey-text darken-4" style="border: none;">SKILLS</li>
-            <li class="collection-item blue-grey lighten-2 grey-text darken-2" style="border: none;">HTML</li>
-            <li class="collection-item blue-grey lighten-2 grey-text darken-3" style="border: none;">CSS + CSS Grid + Flexbox</li>
-            <li class="collection-item blue-grey lighten-2 grey-text darken-2" style="border: none;">Bootstrap</li>
-            <li class="collection-item blue-grey lighten-2 grey-text darken-3" style="border: none;">Tailwind</li>
-            <li class="collection-item blue-grey lighten-2 grey-text darken-2" style="border: none;">Materialize</li>
-            <li class="collection-item blue-grey lighten-2 grey-text darken-3"style="border: none;">JavaScript</li>
-            <li class="collection-item blue-grey lighten-2 grey-text darken-2"style="border: none;">Angular</li>
-          </ul>
-            </div>
+       <!----Start of row for Rest'R'Us-->
+       <div class="col s12 l4">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <div class="card-image">
+                  <img src="/img/Screenshot (252).png">
+                </div>
+                <h5>Rest'R'Us</h5>
+                <p>This project is a fully responsive web app that shows the different foods
+                  offered by a particular restaurant,the ratings of such food and which of their branches offer
+                  such food. It also includes a page for registration and new outlet registration.It is fully responsive.
+                   It was built using
+                  Tailwind CSS.</p>
+              </div>
+              <div class="card-action">
+                <a href="https://adoring-sinoussi-cd2651.netlify.app/offer">Demo</a>
+              </div>
+        </div>
        </div>
-       <div class="col s12 l6">
-         <div class="container">
-           <ul class="collection with-header">
-             <li class="collection-header blue-grey lighten-4 grey-text darken-4" style="border: none;">WORKS</li>
-             <li class="collection-item blue-grey lighten-2 grey-text darken-3" style="border: none;"> <a href = "https://competent-hodgkin-f5ce1e.netlify.app/" class = "grey-text darken-4">TO DO LIST </a>
-             <p>This is a To Do List built with Bootstrap and pure Vanilla JavaScript.What makes this differet from other to do list is 
-               that it is stored on your local Storage
-             </p></li>         
-             <li class="collection-item blue-grey lighten-2 grey-text darken-2" style="border: none;">
-            <a href="https://adoring-sinoussi-cd2651.netlify.app/" class="grey-text darken-4">Restaurant Dashboard</a>
-          <p>Demo design for a Restaurant dashboard complete with staff registration,foods they have,restaurant locations. Built with Tailwind and also a multiple page design. Note: No need to SignUp</p></li>
-             <li class="collection-item blue-grey lighten-2 grey-text darken-3" style="border: none;"><a href="https://admiring-brattain-6d16cc.netlify.app/"class="grey-text darken-4">GPA Calculator</a>
-            <p> GPA Calculator built with Bootstrap and Vanilla JavaScript.</p></li>
-             <li class="collection-item blue-grey lighten-2 grey-text darken-2" style="border: none;"><a href="https://jovial-roentgen-29b242.netlify.app/"class="grey-text darken-4">PORTFLOW</a>
-            <p>Multi page demo design for selling all forms of art. There are spaces for displaying works and a catalogue of various arts they sell. Built with materialize</p></li>
-             <li class="collection-item blue-grey lighten-2 grey-text darken-3" style="border: none;"><a href="https://dazzling-tereshkova-007594.netlify.app/" class="grey-text darken-4">Weather System </a>
-            <p>Using API to get the weather of various locations around the globe. Built with Bootstrap and Vanilla Javascript</p></li>
-           </ul>
-            </div>
+            <!----end of row for Rest'R'Us-->
+
+        <!----Start of row for Calorie Tracker-->    
+       <div class="col s12 l4">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <div class="card-image">
+                  <img src="/img/Screenshot (254).png">
+                </div>
+                <h5>Calorie Tracker</h5>
+                <p>This project allows you to input a meal and add the appropriate calorie for that
+                  particular food. Addition of all the calories is also included and deletion of each meal and 
+                  Calories was also implemented in this project. It was designed using Vanilla Javascript. 
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="https://clever-mclean-6310e2.netlify.app/">Demo</a>
+              </div>
+        </div>
        </div>
+         <!----end of row for Calorie Tracker-->
+
+  <!----end of row for weather display-->
+       <div class="col s12 l4">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <div class="card-image">
+                  <img src="/img/Screenshot (255).png">
+                </div>
+                <h5>Weather Display</h5>
+                <p> This projects displays the weather of various locations around the
+                  world using the OpenWeather API. It was built using Vanilla JS.Changing of Locations is possible</p>
+              </div>
+              <div class="card-action">
+                <a href="https://dazzling-tereshkova-007594.netlify.app/">Demo</a>
+              </div>
+        </div>
+       </div>
+     </div>
+      <!----Start of row for weather display-->
+    
+
+       <!----Start of row for Portflow-->
+<div class="row">
+          <div class="col s12 l4">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <div class="card-image">
+                  <img src="/img/Screenshot (256).png">
+                </div>
+                <h5>Portflow</h5>
+                <p> This is a fully responsive website for a company that deals with art. It is a site
+                  that showcases various forms of art such as photography. It also includes a blog about arts,
+                  contact information and a pricing category. It is fully responsive. It was built using Materialize CSS.</p>
+              </div>
+              <div class="card-action">
+                <a href="https://jovial-roentgen-29b242.netlify.app/">Demo</a>
+              </div>
+        </div>
+       </div>
+        <!----end of row for Portflow-->
+
+
+ <!----Start of row for Task List-->
+       <div class="col s12 l4">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <div class="card-image">
+              <img src="/img/Screenshot (257).png">
+            </div>
+            <h5>Task List</h5>
+            <p>A basic to-do-list where you can add/delete courses but with the slight difference of the tasks being committed to
+              local storage to prevent clearing of tasks when the page is refreshed
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://competent-hodgkin-f5ce1e.netlify.app/">Demo</a>  
+          </div>
+    </div>
+   </div>
+    <!----Start of row for Task List-->
+
+    <!----Start of row for GPA Calculator-->
+   <div class="col s12 l4">
+    <div class="card blue-grey darken-1">
+      <div class="card-content white-text">
+        <div class="card-image">
+          <img src="/img/Screenshot (258).png">
+        </div>
+        <h5>GPA Calculator</h5>
+        <p>  This project allows you to add courses dynamically, add their units,
+          display an error when units aren't added for a particular course, it calculates your GPA and
+          displays whether you are in first class, second clas,third class or pass. It was built using
+          bootstrap and Vanilla JS.</p>
+      </div>
+      <div class="card-action">
+        <a href="https://elegant-saha-7b3c02.netlify.app/">Demo</a>
+        
+      </div>
+</div>
+</div>
+ <!----end of row for GPA Calculator-->
+
+</div>
      </div>
     </div>
 
+
+<!---Start of row for Skills-->
+ <div class="skills blue-grey lighten-4 black-text scrollspy" id="skills">
+  <p class="hither" style="margin-left: 20px;">SKILLS</p>
+   <div class="row">
+     <!---HTML ROW-->
+     <div class="col s12 m6 l3" id="html">
+      <div class="img-container">
+       <img src="img/html5.png" alt="">
+       <p class="hither">HTML5</p>
+      </div>
+     </div>
+      <!---HTML ROW-->
+
+       <!---JAVASCRIPT ROW-->
+     <div class="col s12 m6 l3" id="css">
+       <div class="img-container">
+       <img src="img/javascript.png" alt="">
+       <p class="hither">JAVASCRIPT</p>
+      </div>
+    </div>
+      <!---JAVASCRIPT ROW-->
+
+  <!---CSS ROW-->
+    <div class="col s12 m6 l3" id="css">
+      <div class="img-container">
+      <img src="img/css-3 256.png" alt="">
+      <p class="hither">CSS</p>
+    </div>
+   </div>
+     <!---CSS ROW-->
+
+       <!---ANGULAR ROW-->
+   <div class="col s12 m6 l3" id="css">
+     <div class="img-container">
+    <img src="img/iconfinder_angular_4691504 256.png" alt="">
+    <p class="hither">ANGULAR</p>
+  </div>
+  </div>
+   </div>
+ </div>   
+  <!---ANGULAR ROW-->
+
+  <!---END OF ROW FOR PROJECTS-->
+
+  <!---start of row for stalk me-->
     <div class="Stalk blue-grey lighten-5 section scrollspy" id="Stalks">
       <p class="me grey-text darken-4">STALK ME</p>
       <hr class="ee">
@@ -136,6 +276,8 @@
       </div>
       <div class="container center-align grey-text darken-4" style="margin-bottom: 20px;">&copy; 2020 Zephyr</div>
     </div>
+    
+  <!---end of row for stalk me-->
 
 
 
