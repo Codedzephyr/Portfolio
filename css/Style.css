@@ -1,193 +1,192 @@
-body{
-    display: grid;
+body {
+  display: grid;
 }
-header{
+header {
+  background-image: url(/img/elisa-kerschbaumer-197CEXaOrEE-unsplash-min.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 800px;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+.developer {
+  text-align: center;
+  letter-spacing: 18px;
+  padding: 20px;
+  line-height: 50px;
+}
+.thinking {
+  padding: 40px;
+}
+
+.years {
+  padding: 20px;
+  text-align: center;
+}
+
+#workedwith {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hat {
+  text-align: center;
+}
+.hithere {
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.hither {
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+#code {
+  margin-top: 30px;
+}
+.specialize {
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.develop {
+  font-size: 30px;
+}
+.hat {
+  font-size: 30px;
+}
+.designing {
+  font-size: 30px;
+}
+.minimalistic {
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.me {
+  text-align: center;
+  font-size: 30px;
+}
+.ne {
+  width: 300px;
+  border: 1px solid gray;
+  background-color: gray;
+}
+
+.fa-twitter {
+  color: gray;
+  font-size: 48px;
+}
+.fa-instagram {
+  color: grey;
+  font-size: 48px;
+}
+.fa-reddit {
+  color: grey;
+  font-size: 48px;
+}
+
+.fa-google {
+  color: grey;
+  font-size: 48px;
+}
+
+.fa-github {
+  color: grey;
+  font-size: 48px;
+}
+
+#git {
+  font-size: 48px;
+}
+
+#socialContainer {
+  width: 95%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.ee {
+  width: 300px;
+  border: 1px solid gray;
+  background-color: gray;
+  margin-bottom: 30px;
+}
+.img-container {
+  text-align: center;
+}
+
+@media screen and (min-width: 760px) {
+  .intro {
+    letter-spacing: 18px;
+    text-align: center;
+    margin-top: 150px;
+    letter-spacing: 30px;
+  }
+  .header {
     background-image: url(/img/elisa-kerschbaumer-197CEXaOrEE-unsplash-min.jpg);
     background-size: cover;
     background-position: center;
     min-height: 800px;
-}
-
-.intro{
-   text-align: center;
-   margin-top: 150px;
-   font-size: 60px;
-   letter-spacing: 10px;
-}
-.developer{
+  }
+  .developer {
     text-align: center;
-    letter-spacing: 18px;
-    padding: 20px;
-    line-height: 50px;
-}
-.thinking{
-    padding: 40px;
-}
-
-.years{
-    padding: 20px;
-    text-align: center;
-    
-}
-
-#workedwith {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.hat{
-    text-align: center;
-}
-.hithere{
+    letter-spacing: 10px;
+  }
+  .hithere {
     font-size: 30px;
     letter-spacing: 10px;
     text-align: center;
-}
-
-.hither{
+  }
+  .hat {
     font-size: 30px;
-    letter-spacing: 10px;
-}
-
-
-#code{
-    margin-top: 30px;
-}
-.specialize{
-    padding: 10px;
+  }
+  .years {
     text-align: center;
-    font-size: 15px;
-}
-
-.develop{
-    font-size: 30px;
-}
-.hat{
-    font-size: 30px;
-}
-.designing{
-    font-size: 30px;
-}
-.minimalistic{
-    text-align: center;
-    padding: 10px;
-    font-size: 15px;
-}
-
-.me{
+  }
+  .development {
+    border-right: 2px solid gray;
+  }
+  .me {
     text-align: center;
     font-size: 30px;
-}
-.ne{
-    width: 300px;
-    border: 1px solid gray;
-    background-color: gray;
-}
+  }
 
-.fa-twitter{
+  hr.ne {
+    visibility: hidden;
+  }
+  .fa-twitter {
     color: gray;
     font-size: 48px;
-    margin-bottom: 30px;
-}
-.fa-instagram{
+  }
+  .fa-instagram {
     color: grey;
     font-size: 48px;
-    margin-left: 40px;
-    margin-bottom: 30px;
-}
-.fa-reddit{
+  }
+  .fa-reddit {
     color: grey;
     font-size: 48px;
-    margin-left: 40px;
-    margin-bottom: 30px;
-}
-.fa-google{
+  }
+  .fa-google {
     color: grey;
     font-size: 48px;
-    margin-left: 40px;
-    margin-bottom: 30px;
-}
-
-.ee{
+  }
+  .ee {
     width: 300px;
     border: 1px solid gray;
     background-color: gray;
-    margin-bottom: 30px; 
-}
-.img-container{
-    text-align: center;
-}
-
-
-@media screen and (min-width: 760px){
-    .intro{
-        letter-spacing: 18px;
-        text-align: center;
-        margin-top: 150px;
-        letter-spacing: 30px;
-    }
-    .header{
-        background-image: url(/img/elisa-kerschbaumer-197CEXaOrEE-unsplash-min.jpg);
-        background-size: cover;
-        background-position: center;
-        min-height: 800px;
-    }
-    .developer{
-        text-align: center;
-        letter-spacing: 10px;
-    }
-    .hithere{
-        font-size: 30px;
-        letter-spacing: 10px;
-        text-align: center;
-    }
-    .hat{
-        font-size: 30px;
-    }
-    .years{
-        text-align: center;
-    }
-    .development{
-     border-right: 2px solid gray;
-    }
-    .me{
-        text-align: center;
-        font-size: 30px;
-    }
-
-    hr.ne{
-        visibility: hidden;
-    }
-    .fa-twitter{
-        color: gray;
-        font-size: 48px;
-        margin-bottom: 30px;
-    }
-    .fa-instagram{
-        color: grey;
-        font-size: 48px;
-        margin-left: 90px;
-        margin-bottom: 30px;
-    }
-    .fa-reddit{
-        color: grey;
-        font-size: 48px;
-        margin-left: 90px;
-        margin-bottom: 30px;
-    }
-    .fa-google{
-        color: grey;
-        font-size: 48px;
-        margin-left: 90px;
-        margin-bottom: 30px;
-    }
-    .ee{
-        width: 300px;
-        border: 1px solid gray;
-        background-color: gray;
-        margin-bottom: 30px; 
-    }
-    
-
-    
+    margin-bottom: 30px;
+  }
 }
